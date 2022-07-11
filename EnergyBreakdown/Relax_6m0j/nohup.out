@@ -1,0 +1,1378 @@
+[0mcore.init: (1) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (4) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (2) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (7) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (6) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (2) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (2) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mcore.init: (4) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (4) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mcore.init: (1) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (1) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mcore.init: (6) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (6) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mcore.init: (7) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (7) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mcore.init: (5) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (0) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (5) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (5) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mcore.init: (0) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (0) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mcore.init: (3) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (3) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (3) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mbasic.random.init_random_generator: (2) [0m'RNG device' seed mode, using '/dev/urandom', seed=-1007317248 seed_offset=0 real_seed=1487695732
+[0mbasic.random.init_random_generator: (2) [0mRandomGenerator:init: Normal mode, seed=1487695732 RG_type=mt19937
+[0mbasic.random.init_random_generator: (0) [0m'RNG device' seed mode, using '/dev/urandom', seed=1487695730 seed_offset=0 real_seed=1487695730
+[0mbasic.random.init_random_generator: (0) [0mRandomGenerator:init: Normal mode, seed=1487695730 RG_type=mt19937
+[0mbasic.random.init_random_generator: (1) [0m'RNG device' seed mode, using '/dev/urandom', seed=-734964237 seed_offset=0 real_seed=1487695731
+[0mbasic.random.init_random_generator: (1) [0mRandomGenerator:init: Normal mode, seed=1487695731 RG_type=mt19937
+[0mbasic.random.init_random_generator: (4) [0m'RNG device' seed mode, using '/dev/urandom', seed=1419780873 seed_offset=0 real_seed=1487695734
+[0mbasic.random.init_random_generator: (4) [0mRandomGenerator:init: Normal mode, seed=1487695734 RG_type=mt19937
+[0mbasic.random.init_random_generator: (5) [0m'RNG device' seed mode, using '/dev/urandom', seed=625289191 seed_offset=0 real_seed=1487695735
+[0mbasic.random.init_random_generator: (5) [0mRandomGenerator:init: Normal mode, seed=1487695735 RG_type=mt19937
+[0mbasic.random.init_random_generator: (6) [0m'RNG device' seed mode, using '/dev/urandom', seed=329065831 seed_offset=0 real_seed=1487695736
+[0mbasic.random.init_random_generator: (6) [0mRandomGenerator:init: Normal mode, seed=1487695736 RG_type=mt19937
+[0mbasic.random.init_random_generator: (7) [0m'RNG device' seed mode, using '/dev/urandom', seed=-1129437415 seed_offset=0 real_seed=1487695737
+[0mbasic.random.init_random_generator: (7) [0mRandomGenerator:init: Normal mode, seed=1487695737 RG_type=mt19937
+[0mcore.init: (0) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (0) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.init: (1) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (1) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (1) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (2) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (2) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (2) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (4) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (4) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (4) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (5) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (5) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (5) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (6) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (6) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (6) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (7) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (7) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (7) [0mSCOREFUNCTION: [32mref2015[0m
+[0mbasic.random.init_random_generator: (3) [0m'RNG device' seed mode, using '/dev/urandom', seed=1237062521 seed_offset=0 real_seed=1487695733
+[0mbasic.random.init_random_generator: (3) [0mRandomGenerator:init: Normal mode, seed=1487695733 RG_type=mt19937
+[0mcore.scoring.ScoreFunctionFactory: (0) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (3) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (3) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (3) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (8) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (8) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (8) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mbasic.random.init_random_generator: (8) [0m'RNG device' seed mode, using '/dev/urandom', seed=-1724834487 seed_offset=0 real_seed=1487695738
+[0mbasic.random.init_random_generator: (8) [0mRandomGenerator:init: Normal mode, seed=1487695738 RG_type=mt19937
+[0mcore.init: (8) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (8) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (8) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.init: (9) [0mChecking for fconfig files in pwd and ./rosetta/flags 
+[0mcore.init: (9) [0mRosetta version: rosetta.source.release-314 r314 2022.11+release.512e589 512e58946eaed9de20d65cdeea465e7690dc9e9a https://www.rosettacommons.org 2022-03-14T17:54:23.772418
+[0mcore.init: (9) [0mcommand: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease @flag_input_relax
+[0mbasic.random.init_random_generator: (9) [0m'RNG device' seed mode, using '/dev/urandom', seed=1458780224 seed_offset=0 real_seed=1487695739
+[0mbasic.random.init_random_generator: (9) [0mRandomGenerator:init: Normal mode, seed=1487695739 RG_type=mt19937
+[0mcore.init: (9) [0mResolved executable path: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/source/bin/relax.mpi.macosclangrelease
+[0mcore.init: (9) [0mLooking for database based on location of executable: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/
+[0mcore.scoring.ScoreFunctionFactory: (9) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.scoring.etable: (2) [0mStarting energy table calculation
+[0mcore.scoring.etable: (3) [0mStarting energy table calculation
+[0mcore.scoring.etable: (4) [0mStarting energy table calculation
+[0mcore.scoring.etable: (5) [0mStarting energy table calculation
+[0mcore.scoring.etable: (6) [0mStarting energy table calculation
+[0mcore.scoring.etable: (0) [0mStarting energy table calculation
+[0mcore.scoring.etable: (1) [0mStarting energy table calculation
+[0mcore.scoring.etable: (7) [0mStarting energy table calculation
+[0mcore.scoring.etable: (9) [0mStarting energy table calculation
+[0mcore.scoring.etable: (0) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (0) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (6) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (6) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (4) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (4) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (3) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (3) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (2) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (2) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (1) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (1) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (8) [0mStarting energy table calculation
+[0mcore.scoring.etable: (7) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (7) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (0) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (1) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (4) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (7) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (6) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (2) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (3) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (9) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (9) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (9) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (5) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (5) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (5) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (8) [0msmooth_etable: changing atr/rep split to bottom of energy well
+[0mcore.scoring.etable: (8) [0msmooth_etable: spline smoothing lj etables (maxdis = 6)
+[0mcore.scoring.etable: (8) [0msmooth_etable: spline smoothing solvation etables (max_dis = 6)
+[0mcore.scoring.etable: (0) [0mFinished calculating energy tables.
+[0mcore.scoring.etable: (1) [0mFinished calculating energy tables.
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mcore.scoring.etable: (5) [0mFinished calculating energy tables.
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mcore.scoring.etable: (9) [0mFinished calculating energy tables.
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mcore.scoring.etable: (8) [0mFinished calculating energy tables.
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mcore.scoring.etable: (7) [0mFinished calculating energy tables.
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mcore.scoring.etable: (6) [0mFinished calculating energy tables.
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mcore.scoring.etable: (3) [0mFinished calculating energy tables.
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mcore.scoring.etable: (2) [0mFinished calculating energy tables.
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mcore.scoring.etable: (4) [0mFinished calculating energy tables.
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBPoly1D.csv
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBFadeIntervals.csv
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/HBEval.csv
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/DonStrength.csv
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/hbonds/ref2015_params/AccStrength.csv
+[0mcore.chemical.GlobalResidueTypeSet: (1) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (1) [0mTotal time to initialize 0.684869 seconds.
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (9) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (9) [0mTotal time to initialize 0.678126 seconds.
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (0) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (0) [0mTotal time to initialize 0.680145 seconds.
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (5) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (5) [0mTotal time to initialize 0.676441 seconds.
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (3) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (3) [0mTotal time to initialize 0.672974 seconds.
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (8) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (8) [0mTotal time to initialize 0.686536 seconds.
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (2) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (2) [0mTotal time to initialize 0.681039 seconds.
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (6) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (6) [0mTotal time to initialize 0.689815 seconds.
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (7) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (7) [0mTotal time to initialize 0.69294 seconds.
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mcore.chemical.GlobalResidueTypeSet: (4) [0mFinished initializing fa_standard residue type set.  Created 983 residue types
+[0mcore.chemical.GlobalResidueTypeSet: (4) [0mTotal time to initialize 0.672187 seconds.
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/rama/fd/all.ramaProb
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/rama/fd/prepro.ramaProb
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mcore.scoring.P_AA: (0) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (0) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (5) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (7) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (3) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (2) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (8) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (6) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (9) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (1) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mprotocols.relax.RelaxScriptManager: (0) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (0) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (0) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (0) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (0) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (0) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (0) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (0) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (0) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (0) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (0) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (0) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (0) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (0) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (0) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (0) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (0) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (0) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (0) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (0) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (0) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (0) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (0) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (0) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (0) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (0) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (0) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (0) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (0) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 1 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.relax.RelaxScriptManager: (5) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (5) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (5) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (5) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (5) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (5) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (5) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (5) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (5) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (5) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (5) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (5) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (5) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (5) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (5) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (5) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (5) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (5) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (5) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (5) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (5) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (5) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (5) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (5) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (5) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (5) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (5) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (5) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (5) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (5) [0mSlave Node 5: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 5 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 1 to node 5 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (5) [0mSlave Node 5: Received job id 1 from master.
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 2 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.jd2.PDBJobInputter: (5) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (5) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mprotocols.relax.RelaxScriptManager: (7) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (7) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (7) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (7) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (7) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (7) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (7) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (7) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (7) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (7) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (7) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (7) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (7) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (7) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (7) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (7) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (7) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (7) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (7) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (7) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (7) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (7) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (7) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (7) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (7) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (7) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (7) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (7) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (7) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (7) [0mSlave Node 7: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (7) [0mSlave Node 7: Received job id 2 from master.
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 7 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 2 to node 7 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 3 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.jd2.PDBJobInputter: (7) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (7) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mprotocols.relax.RelaxScriptManager: (2) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (2) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (2) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (2) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (2) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (2) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (2) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (2) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (2) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (2) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (2) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (2) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (2) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (2) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (2) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (2) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (2) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (2) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (2) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (2) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (2) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (2) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (2) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (2) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (2) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (2) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (2) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (2) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (2) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (2) [0mSlave Node 2: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 2 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 3 to node 2 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (2) [0mSlave Node 2: Received job id 3 from master.
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 4 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.jd2.PDBJobInputter: (2) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (2) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mprotocols.relax.RelaxScriptManager: (8) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (8) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (8) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (8) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (8) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (8) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (8) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (8) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (8) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (8) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (8) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (8) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (8) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (8) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (8) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (8) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (8) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (8) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (8) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (8) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (8) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (8) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (8) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (8) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (8) [0mendrepeat
+[0mprotocols.relax.RelaxScriptManager: (3) [0mReading relax scripts list from database.
+[0mprotocols.jd2.PDBJobInputter: (8) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (8) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (8) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.relax.RelaxScriptManager: (3) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (3) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (3) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (3) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (3) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (3) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (3) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (3) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (3) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (3) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (3) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (3) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (3) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (3) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManag[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (8) [0mEvaluation Creator active ... 
+er: (3) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (3) [0mrepack
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (8) [0mSlave Node 8: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 8 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 4 to node 8 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (8) [0mSlave Node 8: Received job id 4 from master.
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 5 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.relax.RelaxScriptManager: (3) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (3) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (3) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (3) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (3) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (3) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (3) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (3) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (3) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (3) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (3) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (3) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (3) [0mSlave Node 3: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 3 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 5 to node 3 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (3) [0mSlave Node 3: Received job id 5 from master.
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 6 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.jd2.PDBJobInputter: (8) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (8) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mprotocols.jd2.PDBJobInputter: (3) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (3) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.all.txt
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.gly.txt
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.pro.txt
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/omega/omega_ppdep.valile.txt
+[0mprotocols.relax.RelaxScriptManager: (6) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (6) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (6) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (6) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (6) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (6) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (6) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (6) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (6) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (6) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (6) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (6) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (6) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (6) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (6) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (6) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (6) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (6) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (6) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (6) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (6) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (6) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (6) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (6) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (6) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (6) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (6) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (6) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (6) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (6) [0mSlave Node 6: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 6 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 6 to node 6 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (6) [0mSlave Node 6: Received job id 6 from master.
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 7 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.jd2.PDBJobInputter: (6) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (6) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mcore.import_pose.import_pose: (5) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mcore.import_pose.import_pose: (7) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mprotocols.relax.RelaxScriptManager: (9) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (9) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (9) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (9) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (9) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (9) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (9) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (9) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (9) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (9) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (9) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (9) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (9) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (9) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (9) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (9) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (9) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (9) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (9) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (9) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (9) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (9) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (9) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (9) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (9) [0mendrepeat
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 9 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 7 to node 9 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Getting next job to assign from list id 8 of 8
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for job requests...
+[0mprotocols.jd2.PDBJobInputter: (9) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (9) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (9) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (9) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (9) [0mSlave Node 9: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (9) [0mSlave Node 9: Received job id 7 from master.
+[0mcore.import_pose.import_pose: (2) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mcore.import_pose.import_pose: (3) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mcore.import_pose.import_pose: (8) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mprotocols.jd2.PDBJobInputter: (9) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (9) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/P_AA_pp/P_AA_n
+[0mcore.scoring.P_AA: (4) [0mshapovalov_lib::shap_p_aa_pp_smooth_level of 1( aka low_smooth ) got activated.
+[0mbasic.io.database: (4) [0mDatabase file opened: scoring/score_functions/P_AA_pp/shapovalov/10deg/kappa131/a20.prop
+[0mprotocols.relax.RelaxScriptManager: (1) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (1) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (1) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (1) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (1) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (1) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (1) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (1) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (1) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (1) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (1) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (1) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (1) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (1) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (1) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (1) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (1) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (1) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (1) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (1) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (1) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (1) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (1) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (1) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (1) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (1) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (1) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (1) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (1) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (1) [0mSlave Node 1: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from 1 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending new job id 8 to node 1 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: No more jobs to assign, setting next job id to zero
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Finished handing out jobs
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for 9 slaves to finish jobs
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (1) [0mSlave Node 1: Received job id 8 from master.
+[0mprotocols.jd2.PDBJobInputter: (1) [0mPDBJobInputter::pose_from_job
+[0mprotocols.jd2.PDBJobInputter: (1) [0mfilling pose from PDB 6m0j_renum.pdb
+[0mcore.import_pose.import_pose: (6) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mcore.io.rcsb.ExperimentalTechnique: (7) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mcore.io.rcsb.ExperimentalTechnique: (5) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mcore.import_pose.import_pose: (9) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mcore.io.rcsb.ExperimentalTechnique: (2) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mcore.io.rcsb.ExperimentalTechnique: (3) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mcore.io.rcsb.ExperimentalTechnique: (8) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mcore.io.rcsb.ExperimentalTechnique: (6) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mcore.import_pose.import_pose: (1) [0mFile '6m0j_renum.pdb' automatically determined to be of type PDB
+[0mcore.io.rcsb.ExperimentalTechnique: (9) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mcore.io.rcsb.ExperimentalTechnique: (1) [0m[31m[1m[ ERROR ][0m Unrecognized experimental technique string 'DOCKING MODEL           RENUMBERED'
+[0mprotocols.relax.RelaxScriptManager: (4) [0mReading relax scripts list from database.
+[0mprotocols.relax.RelaxScriptManager: (4) [0mLooking for MonomerRelax2019.txt
+[0mprotocols.relax.RelaxScriptManager: (4) [0m================== Reading script file: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/sampling/relax_scripts/MonomerRelax2019.txt ==================
+[0mprotocols.relax.RelaxScriptManager: (4) [0mrepeat %%nrepeats%%
+[0mprotocols.relax.RelaxScriptManager: (4) [0mcoord_cst_weight 1.0
+[0mprotocols.relax.RelaxScriptManager: (4) [0mscale:fa_rep 0.040
+[0mprotocols.relax.RelaxScriptManager: (4) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (4) [0mscale:fa_rep 0.051
+[0mprotocols.relax.RelaxScriptManager: (4) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (4) [0mcoord_cst_weight 0.5
+[0mprotocols.relax.RelaxScriptManager: (4) [0mscale:fa_rep 0.265
+[0mprotocols.relax.RelaxScriptManager: (4) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (4) [0mscale:fa_rep 0.280
+[0mprotocols.relax.RelaxScriptManager: (4) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (4) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (4) [0mscale:fa_rep 0.559
+[0mprotocols.relax.RelaxScriptManager: (4) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (4) [0mscale:fa_rep 0.581
+[0mprotocols.relax.RelaxScriptManager: (4) [0mmin 0.01
+[0mprotocols.relax.RelaxScriptManager: (4) [0mcoord_cst_weight 0.0
+[0mprotocols.relax.RelaxScriptManager: (4) [0mscale:fa_rep 1
+[0mprotocols.relax.RelaxScriptManager: (4) [0mrepack
+[0mprotocols.relax.RelaxScriptManager: (4) [0mmin 0.00001
+[0mprotocols.relax.RelaxScriptManager: (4) [0maccept_to_best
+[0mprotocols.relax.RelaxScriptManager: (4) [0mendrepeat
+[0mprotocols.jd2.PDBJobInputter: (4) [0mInstantiate PDBJobInputter
+[0mprotocols.jd2.PDBJobInputter: (4) [0mPDBJobInputter::fill_jobs
+[0mprotocols.jd2.PDBJobInputter: (4) [0mpushed 6m0j_renum.pdb nstruct indices 1 - 8
+[0mprotocols.evaluation.ChiWellRmsdEvaluatorCreator: (4) [0mEvaluation Creator active ... 
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (4) [0mSlave Node 4: Requesting new job id from master
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Received message from  4 with tag 10
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Sending spin down signal to node 4
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (0) [0mMaster Node: Waiting for 8 slaves to finish jobs
+[0mprotocols.jd2.MPIWorkPoolJobDistributor: (4) [0mSlave Node 4: Received job id 0 from master.
+[0mprotocols.jd2.JobDistributor: (4) [0mno more batches to process... 
+[0mprotocols.jd2.JobDistributor: (4) [0m8 jobs considered, 0 jobs attempted in 0 seconds
+[0mprotocols.jd2.JobDistributor: (4) [0mno jobs were attempted, did you forget to pass -overwrite?
+[0mcore.conformation.Conformation: (5) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (5) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.conformation.Conformation: (7) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (7) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.conformation.Conformation: (8) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (8) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.conformation.Conformation: (7) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (5) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (8) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (5) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 343 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (5) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (7) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (3) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (8) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (3) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 524 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 343 CYD
+[0mcore.conformation.Conformation: (5) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 626 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 343 CYD
+[0mcore.conformation.Conformation: (3) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (7) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (8) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (6) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (6) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (5) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 697 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 697 CYD
+[0mcore.conformation.Conformation: (5) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (6) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 524 CYD
+[0mcore.conformation.Conformation: (7) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 626 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 524 CYD
+[0mcore.conformation.Conformation: (8) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 626 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (3) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (7) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 697 CYS
+[0mcore.conformation.Conformation: (8) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 697 CYS
+[0mcore.conformation.Conformation: (6) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 343 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 697 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 697 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 343 CYD
+[0mcore.conformation.Conformation: (3) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (7) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (8) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (6) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 524 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 524 CYD
+[0mcore.conformation.Conformation: (3) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 626 CYS
+[0mcore.conformation.Conformation: (5) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (7) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (8) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (6) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 626 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (5) [0mcurrent variant for 753 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (7) [0mcurrent variant for 753 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (8) [0mcurrent variant for 753 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (3) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 697 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 697 CYD
+[0mcore.conformation.Conformation: (6) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 697 CYS
+[0mcore.conformation.Conformation: (3) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (3) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 697 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (3) [0mcurrent variant for 753 CYD
+[0mcore.scoring.ScoreFunctionFactory: (7) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.conformation.Conformation: (6) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (2) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (2) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.scoring.ScoreFunctionFactory: (8) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.scoring.ScoreFunctionFactory: (5) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (6) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (9) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (9) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.conformation.Conformation: (2) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (6) [0mcurrent variant for 753 CYD
+[0mcore.conformation.Conformation: (9) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (2) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 343 CYD
+[0mcore.scoring.ScoreFunctionFactory: (3) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (2) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (9) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (1) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue ASP:CtermProteinFull 597
+[0mcore.conformation.Conformation: (1) [0m[1m[ WARNING ][0m missing heavyatom:  OXT on residue GLY:CtermProteinFull 791
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 343 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 524 CYD
+[0mcore.conformation.Conformation: (1) [0mFound disulfide between residues 115 123
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 115 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 123 CYS
+[0mcore.conformation.Conformation: (9) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (2) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 626 CYS
+[0mcore.scoring.ScoreFunctionFactory: (6) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 524 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 115 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 123 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (1) [0mFound disulfide between residues 326 343
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 326 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 343 CYS
+[0mcore.conformation.Conformation: (2) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 697 CYS
+[0mbasic.io.database: (7) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mcore.conformation.Conformation: (9) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 626 CYS
+[0mbasic.io.database: (8) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mbasic.io.database: (5) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 326 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 343 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 697 CYD
+[0mcore.scoring.elec.util: (5) [0mRead 40 countpair representative atoms
+[0mcore.scoring.elec.util: (7) [0mRead 40 countpair representative atoms
+[0mcore.scoring.elec.util: (8) [0mRead 40 countpair representative atoms
+[0mcore.conformation.Conformation: (1) [0mFound disulfide between residues 512 524
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 512 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 524 CYS
+[0mcore.conformation.Conformation: (2) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (9) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 697 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 697 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 512 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 524 CYD
+[0mbasic.io.database: (3) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mcore.scoring.elec.util: (3) [0mRead 40 countpair representative atoms
+[0mcore.conformation.Conformation: (9) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (1) [0mFound disulfide between residues 601 626
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 601 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 626 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 601 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 626 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (9) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (1) [0mFound disulfide between residues 644 697
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 644 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 697 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 644 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 697 CYD
+[0mcore.conformation.Conformation: (1) [0mFound disulfide between residues 656 790
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 656 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 790 CYS
+[0mcore.conformation.Conformation: (2) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (2) [0mcurrent variant for 753 CYD
+[0mbasic.io.database: (6) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mcore.scoring.elec.util: (6) [0mRead 40 countpair representative atoms
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (9) [0mcurrent variant for 753 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 656 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 790 CYD
+[0mcore.conformation.Conformation: (1) [0mFound disulfide between residues 745 753
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 745 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 753 CYS
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 745 CYD
+[0mcore.conformation.Conformation: (1) [0mcurrent variant for 753 CYD
+[0mcore.scoring.ScoreFunctionFactory: (2) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.scoring.ScoreFunctionFactory: (1) [0mSCOREFUNCTION: [32mref2015[0m
+[0mcore.scoring.ScoreFunctionFactory: (9) [0mSCOREFUNCTION: [32mref2015[0m
+[0mbasic.io.database: (2) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mcore.scoring.elec.util: (2) [0mRead 40 countpair representative atoms
+[0mbasic.io.database: (1) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mcore.scoring.elec.util: (1) [0mRead 40 countpair representative atoms
+[0mbasic.io.database: (9) [0mDatabase file opened: scoring/score_functions/elec_cp_reps.dat
+[0mcore.scoring.elec.util: (9) [0mRead 40 countpair representative atoms
+[0mcore.pack.dunbrack.RotamerLibrary: (7) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (5) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (5) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (5) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (7) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (7) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (7) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (5) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (8) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (8) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (8) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (8) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (3) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (3) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (3) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (3) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (6) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (6) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (6) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (6) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (2) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (2) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (2) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (2) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (9) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (9) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (9) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (9) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (1) [0mshapovalov_lib_fixes_enable option is true.
+[0mcore.pack.dunbrack.RotamerLibrary: (1) [0mshapovalov_lib::shap_dun10_smooth_level of 1( aka lowest_smooth ) got activated.
+[0mcore.pack.dunbrack.RotamerLibrary: (1) [0mBinary rotamer library selected: /Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin
+[0mcore.pack.dunbrack.RotamerLibrary: (1) [0mUsing Dunbrack library binary file '/Users/austinseamann/Rosetta/rosetta.source.release-314/main/database/rotamer/shapovalov/StpDwn_0-0-0/Dunbrack10.lib.bin'.
+[0mcore.pack.dunbrack.RotamerLibrary: (1) [0mDunbrack 2010 library took 0.37765 seconds to load from binary
+[0mcore.pack.dunbrack.RotamerLibrary: (3) [0mDunbrack 2010 library took 0.375916 seconds to load from binary
+[0mcore.pack.dunbrack.RotamerLibrary: (5) [0mDunbrack 2010 library took 0.376938 seconds to load from binary
+[0mcore.pack.dunbrack.RotamerLibrary: (2) [0mDunbrack 2010 library took 0.363919 seconds to load from binary
+[0mcore.pack.dunbrack.RotamerLibrary: (8) [0mDunbrack 2010 library took 0.378016 seconds to load from binary
+[0mcore.pack.dunbrack.RotamerLibrary: (9) [0mDunbrack 2010 library took 0.372596 seconds to load from binary
+[0mcore.pack.dunbrack.RotamerLibrary: (7) [0mDunbrack 2010 library took 0.37797 seconds to load from binary
+[0mcore.pack.dunbrack.RotamerLibrary: (6) [0mDunbrack 2010 library took 0.381859 seconds to load from binary
+[0mcore.pack.task: (2) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (8) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (7) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (5) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (3) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (6) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (9) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (1) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (2) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (2) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (6) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (6) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (7) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (7) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (3) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (3) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (1) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (1) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (8) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (8) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (5) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (5) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (9) [0mbuilt 2557 rotamers at 791 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (9) [0mInstantiating DensePDInteractionGraph
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (7) [0m[[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (7) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (2) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (6) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (8) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (3) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (1) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (9) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   42 GLN GLN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   71 GLN GLN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   80 GLN GLN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:   84 GLN GLN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  116 ASN ASN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  136 ASN ASN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  177 HIS HIS
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  269 GLN GLN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  327 HIS HIS
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  399 HIS HIS
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  517 HIS HIS
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  746 ASN ASN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  3 position:  758 GLN GLN
+[0mcore.io.pdb.file_data: (5) [0m[1m[ WARNING ][0m OPT-H: heavyatom chi angle change: chidev=   180.000 chino=  2 position:  784 HIS HIS
+[0mprotocols.relax.FastRelax: (2) [0mCMD: repeat  -407.184  0  0  0.55
+[0mprotocols.relax.FastRelax: (2) [0mCMD: coord_cst_weight  -407.184  0  0  0.55
+[0mprotocols.relax.FastRelax: (7) [0mCMD: repeat  -407.184  0  0  0.55
+[0mprotocols.relax.FastRelax: (2) [0mCMD: scale:fa_rep  -1141  0  0  0.022
+[0mprotocols.relax.FastRelax: (5) [0mCMD: repeat  -406.75  0  0  0.55
+[0mprotocols.relax.FastRelax: (7) [0mCMD: coord_cst_weight  -407.184  0  0  0.55
+[0mprotocols.relax.FastRelax: (9) [0mCMD: repeat  -407.215  0  0  0.55
+[0mprotocols.relax.FastRelax: (5) [0mCMD: coord_cst_weight  -406.75  0  0  0.55
+[0mprotocols.relax.FastRelax: (1) [0mCMD: repeat  -407.275  0  0  0.55
+[0mprotocols.relax.FastRelax: (6) [0mCMD: repeat  -407.306  0  0  0.55
+[0mprotocols.relax.FastRelax: (9) [0mCMD: coord_cst_weight  -407.215  0  0  0.55
+[0mprotocols.relax.FastRelax: (3) [0mCMD: repeat  -407.184  0  0  0.55
+[0mprotocols.relax.FastRelax: (5) [0mCMD: scale:fa_rep  -1141.33  0  0  0.022
+[0mprotocols.relax.FastRelax: (7) [0mCMD: scale:fa_rep  -1141  0  0  0.022
+[0mprotocols.relax.FastRelax: (6) [0mCMD: coord_cst_weight  -407.306  0  0  0.55
+[0mprotocols.relax.FastRelax: (3) [0mCMD: coord_cst_weight  -407.184  0  0  0.55
+[0mprotocols.relax.FastRelax: (1) [0mCMD: coord_cst_weight  -407.275  0  0  0.55
+[0mprotocols.relax.FastRelax: (9) [0mCMD: scale:fa_rep  -1141.02  0  0  0.022
+[0mprotocols.relax.FastRelax: (6) [0mCMD: scale:fa_rep  -1140.86  0  0  0.022
+[0mprotocols.relax.FastRelax: (8) [0mCMD: repeat  -407.215  0  0  0.55
+[0mcore.pack.task: (2) [0mPacker task: initialize from command line() 
+[0mprotocols.relax.FastRelax: (3) [0mCMD: scale:fa_rep  -1141  0  0  0.022
+[0mcore.pack.task: (7) [0mPacker task: initialize from command line() 
+[0mprotocols.relax.FastRelax: (8) [0mCMD: coord_cst_weight  -407.215  0  0  0.55
+[0mprotocols.relax.FastRelax: (1) [0mCMD: scale:fa_rep  -1140.83  0  0  0.022
+[0mcore.pack.task: (5) [0mPacker task: initialize from command line() 
+[0mprotocols.relax.FastRelax: (8) [0mCMD: scale:fa_rep  -1141.02  0  0  0.022
+[0mcore.pack.task: (6) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (1) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (3) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (9) [0mPacker task: initialize from command line() 
+[0mcore.pack.task: (8) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (6) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (6) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (5) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (5) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (3) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (3) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (8) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (8) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (1) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (1) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (2) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (2) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (9) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (9) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (7) [0mbuilt 44938 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (7) [0mInstantiating DensePDInteractionGraph
+[0mprotocols.relax.FastRelax: (3) [0mCMD: repack  -2328.99  0  0  0.022
+[0mprotocols.relax.FastRelax: (3) [0mCMD: scale:fa_rep  -2296.53  0  0  0.02805
+[0mprotocols.relax.FastRelax: (9) [0mCMD: repack  -2322.58  0  0  0.022
+[0mprotocols.relax.FastRelax: (9) [0mCMD: scale:fa_rep  -2288.98  0  0  0.02805
+[0mprotocols.relax.FastRelax: (7) [0mCMD: repack  -2329.94  0  0  0.022
+[0mprotocols.relax.FastRelax: (7) [0mCMD: scale:fa_rep  -2298.38  0  0  0.02805
+[0mprotocols.relax.FastRelax: (1) [0mCMD: repack  -2330.22  0  0  0.022
+[0mprotocols.relax.FastRelax: (1) [0mCMD: scale:fa_rep  -2297.67  0  0  0.02805
+[0mprotocols.relax.FastRelax: (5) [0mCMD: repack  -2327.41  0  0  0.022
+[0mprotocols.relax.FastRelax: (2) [0mCMD: repack  -2323.74  0  0  0.022
+[0mprotocols.relax.FastRelax: (2) [0mCMD: scale:fa_rep  -2291.64  0  0  0.02805
+[0mprotocols.relax.FastRelax: (5) [0mCMD: scale:fa_rep  -2294.51  0  0  0.02805
+[0mprotocols.relax.FastRelax: (6) [0mCMD: repack  -2321.44  0  0  0.022
+[0mprotocols.relax.FastRelax: (6) [0mCMD: scale:fa_rep  -2287.51  0  0  0.02805
+[0mprotocols.relax.FastRelax: (8) [0mCMD: repack  -2313.89  0  0  0.022
+[0mprotocols.relax.FastRelax: (8) [0mCMD: scale:fa_rep  -2278.91  0  0  0.02805
+[0mcore.optimization.Minimizer: (9) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (9) [0mCMD: min  -2862.38  0.141469  0.141469  0.02805
+[0mprotocols.relax.FastRelax: (9) [0mCMD: coord_cst_weight  -2862.38  0.141469  0.141469  0.02805
+[0mprotocols.relax.FastRelax: (9) [0mCMD: scale:fa_rep  -2330.88  0.141469  0.141469  0.14575
+[0mcore.pack.task: (9) [0mPacker task: initialize from command line() 
+[0mcore.optimization.Minimizer: (3) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mcore.optimization.Minimizer: (7) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (3) [0mCMD: min  -2866.42  0.142496  0.142496  0.02805
+[0mprotocols.relax.FastRelax: (3) [0mCMD: coord_cst_weight  -2866.42  0.142496  0.142496  0.02805
+[0mprotocols.relax.FastRelax: (3) [0mCMD: scale:fa_rep  -2344.44  0.142496  0.142496  0.14575
+[0mcore.pack.task: (3) [0mPacker task: initialize from command line() 
+[0mprotocols.relax.FastRelax: (7) [0mCMD: min  -2864.32  0.139898  0.139898  0.02805
+[0mprotocols.relax.FastRelax: (7) [0mCMD: coord_cst_weight  -2864.32  0.139898  0.139898  0.02805
+[0mprotocols.relax.FastRelax: (7) [0mCMD: scale:fa_rep  -2339.15  0.139898  0.139898  0.14575
+[0mcore.pack.task: (7) [0mPacker task: initialize from command line() 
+[0mcore.optimization.Minimizer: (8) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mcore.optimization.Minimizer: (1) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (8) [0mCMD: min  -2863.01  0.140161  0.140161  0.02805
+[0mprotocols.relax.FastRelax: (8) [0mCMD: coord_cst_weight  -2863.01  0.140161  0.140161  0.02805
+[0mprotocols.relax.FastRelax: (8) [0mCMD: scale:fa_rep  -2320.81  0.140161  0.140161  0.14575
+[0mcore.pack.task: (8) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (9) [0mbuilt 38282 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (9) [0mInstantiating DensePDInteractionGraph
+[0mprotocols.relax.FastRelax: (1) [0mCMD: min  -2868.94  0.140079  0.140079  0.02805
+[0mprotocols.relax.FastRelax: (1) [0mCMD: coord_cst_weight  -2868.94  0.140079  0.140079  0.02805
+[0mprotocols.relax.FastRelax: (1) [0mCMD: scale:fa_rep  -2340  0.140079  0.140079  0.14575
+[0mcore.pack.task: (1) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (3) [0mbuilt 37839 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (3) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (7) [0mbuilt 37691 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (7) [0mInstantiating DensePDInteractionGraph
+[0mcore.optimization.Minimizer: (5) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (5) [0mCMD: min  -2874.65  0.140243  0.140243  0.02805
+[0mprotocols.relax.FastRelax: (5) [0mCMD: coord_cst_weight  -2874.65  0.140243  0.140243  0.02805
+[0mprotocols.relax.FastRelax: (5) [0mCMD: scale:fa_rep  -2347.04  0.140243  0.140243  0.14575
+[0mcore.pack.task: (5) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (8) [0mbuilt 37781 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (8) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (1) [0mbuilt 38362 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (1) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (5) [0mbuilt 37947 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (5) [0mInstantiating DensePDInteractionGraph
+[0mcore.optimization.Minimizer: (6) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (6) [0mCMD: min  -2862.25  0.143057  0.143057  0.02805
+[0mprotocols.relax.FastRelax: (6) [0mCMD: coord_cst_weight  -2862.25  0.143057  0.143057  0.02805
+[0mprotocols.relax.FastRelax: (6) [0mCMD: scale:fa_rep  -2327.22  0.143057  0.143057  0.14575
+[0mcore.pack.task: (6) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (6) [0mbuilt 37695 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (6) [0mInstantiating DensePDInteractionGraph
+[0mcore.optimization.Minimizer: (2) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (2) [0mCMD: min  -2862.81  0.141731  0.141731  0.02805
+[0mprotocols.relax.FastRelax: (2) [0mCMD: coord_cst_weight  -2862.81  0.141731  0.141731  0.02805
+[0mprotocols.relax.FastRelax: (2) [0mCMD: scale:fa_rep  -2335.71  0.141731  0.141731  0.14575
+[0mcore.pack.task: (2) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (2) [0mbuilt 37689 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (2) [0mInstantiating DensePDInteractionGraph
+[0mprotocols.relax.FastRelax: (3) [0mCMD: repack  -2437.47  0.142496  0.142496  0.14575
+[0mprotocols.relax.FastRelax: (3) [0mCMD: scale:fa_rep  -2412.97  0.142496  0.142496  0.154
+[0mprotocols.relax.FastRelax: (7) [0mCMD: repack  -2422.29  0.139898  0.139898  0.14575
+[0mprotocols.relax.FastRelax: (7) [0mCMD: scale:fa_rep  -2398.21  0.139898  0.139898  0.154
+[0mprotocols.relax.FastRelax: (9) [0mCMD: repack  -2436.11  0.141469  0.141469  0.14575
+[0mprotocols.relax.FastRelax: (9) [0mCMD: scale:fa_rep  -2412.49  0.141469  0.141469  0.154
+[0mprotocols.relax.FastRelax: (8) [0mCMD: repack  -2429.65  0.140161  0.140161  0.14575
+[0mprotocols.relax.FastRelax: (8) [0mCMD: scale:fa_rep  -2404.56  0.140161  0.140161  0.154
+[0mprotocols.relax.FastRelax: (1) [0mCMD: repack  -2445.75  0.140079  0.140079  0.14575
+[0mprotocols.relax.FastRelax: (1) [0mCMD: scale:fa_rep  -2422.47  0.140079  0.140079  0.154
+[0mprotocols.relax.FastRelax: (5) [0mCMD: repack  -2427.91  0.140243  0.140243  0.14575
+[0mprotocols.relax.FastRelax: (5) [0mCMD: scale:fa_rep  -2402.81  0.140243  0.140243  0.154
+[0mprotocols.relax.FastRelax: (6) [0mCMD: repack  -2428.01  0.143057  0.143057  0.14575
+[0mprotocols.relax.FastRelax: (6) [0mCMD: scale:fa_rep  -2403.37  0.143057  0.143057  0.154
+[0mprotocols.relax.FastRelax: (2) [0mCMD: repack  -2437.62  0.141731  0.141731  0.14575
+[0mprotocols.relax.FastRelax: (2) [0mCMD: scale:fa_rep  -2414.14  0.141731  0.141731  0.154
+[0mcore.optimization.Minimizer: (3) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (3) [0mCMD: min  -2606.37  0.127817  0.127817  0.154
+[0mprotocols.relax.FastRelax: (3) [0mCMD: coord_cst_weight  -2606.37  0.127817  0.127817  0.154
+[0mprotocols.relax.FastRelax: (3) [0mCMD: scale:fa_rep  -2342.57  0.127817  0.127817  0.30745
+[0mcore.pack.task: (3) [0mPacker task: initialize from command line() 
+[0mcore.optimization.Minimizer: (9) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (9) [0mCMD: min  -2602.16  0.129076  0.129076  0.154
+[0mprotocols.relax.FastRelax: (9) [0mCMD: coord_cst_weight  -2602.16  0.129076  0.129076  0.154
+[0mprotocols.relax.FastRelax: (9) [0mCMD: scale:fa_rep  -2341.15  0.129076  0.129076  0.30745
+[0mcore.pack.task: (9) [0mPacker task: initialize from command line() 
+[0mcore.optimization.Minimizer: (7) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (7) [0mCMD: min  -2600.81  0.128962  0.128962  0.154
+[0mprotocols.relax.FastRelax: (7) [0mCMD: coord_cst_weight  -2600.81  0.128962  0.128962  0.154
+[0mprotocols.relax.FastRelax: (7) [0mCMD: scale:fa_rep  -2342.91  0.128962  0.128962  0.30745
+[0mcore.pack.task: (7) [0mPacker task: initialize from command line() 
+[0mcore.optimization.Minimizer: (8) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mcore.pack.pack_rotamers: (3) [0mbuilt 35414 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (3) [0mInstantiating DensePDInteractionGraph
+[0mprotocols.relax.FastRelax: (8) [0mCMD: min  -2600.54  0.131124  0.131124  0.154
+[0mprotocols.relax.FastRelax: (8) [0mCMD: coord_cst_weight  -2600.54  0.131124  0.131124  0.154
+[0mprotocols.relax.FastRelax: (8) [0mCMD: scale:fa_rep  -2328.37  0.131124  0.131124  0.30745
+[0mcore.pack.task: (8) [0mPacker task: initialize from command line() 
+[0mcore.optimization.Minimizer: (1) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mcore.pack.pack_rotamers: (9) [0mbuilt 35662 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (9) [0mInstantiating DensePDInteractionGraph
+[0mprotocols.relax.FastRelax: (1) [0mCMD: min  -2613.58  0.128756  0.128756  0.154
+[0mprotocols.relax.FastRelax: (1) [0mCMD: coord_cst_weight  -2613.58  0.128756  0.128756  0.154
+[0mprotocols.relax.FastRelax: (1) [0mCMD: scale:fa_rep  -2355.59  0.128756  0.128756  0.30745
+[0mcore.pack.task: (1) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (7) [0mbuilt 35359 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (7) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (8) [0mbuilt 35425 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (8) [0mInstantiating DensePDInteractionGraph
+[0mcore.optimization.Minimizer: (5) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mcore.pack.pack_rotamers: (1) [0mbuilt 35746 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (1) [0mInstantiating DensePDInteractionGraph
+[0mprotocols.relax.FastRelax: (5) [0mCMD: min  -2609.24  0.130098  0.130098  0.154
+[0mprotocols.relax.FastRelax: (5) [0mCMD: coord_cst_weight  -2609.24  0.130098  0.130098  0.154
+[0mprotocols.relax.FastRelax: (5) [0mCMD: scale:fa_rep  -2339.46  0.130098  0.130098  0.30745
+[0mcore.pack.task: (5) [0mPacker task: initialize from command line() 
+[0mcore.optimization.Minimizer: (6) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (6) [0mCMD: min  -2607.48  0.129422  0.129422  0.154
+[0mprotocols.relax.FastRelax: (6) [0mCMD: coord_cst_weight  -2607.48  0.129422  0.129422  0.154
+[0mprotocols.relax.FastRelax: (6) [0mCMD: scale:fa_rep  -2345.68  0.129422  0.129422  0.30745
+[0mcore.pack.task: (6) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (5) [0mbuilt 35316 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (5) [0mInstantiating DensePDInteractionGraph
+[0mcore.pack.pack_rotamers: (6) [0mbuilt 35202 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (6) [0mInstantiating DensePDInteractionGraph
+[0mcore.optimization.Minimizer: (2) [0m[1m[ WARNING ][0m LBFGS MAX CYCLES 2000 EXCEEDED, BUT FUNC NOT CONVERGED!
+[0mprotocols.relax.FastRelax: (2) [0mCMD: min  -2597.2  0.129107  0.129107  0.154
+[0mprotocols.relax.FastRelax: (2) [0mCMD: coord_cst_weight  -2597.2  0.129107  0.129107  0.154
+[0mprotocols.relax.FastRelax: (2) [0mCMD: scale:fa_rep  -2336.03  0.129107  0.129107  0.30745
+[0mcore.pack.task: (2) [0mPacker task: initialize from command line() 
+[0mcore.pack.pack_rotamers: (2) [0mbuilt 35353 rotamers at 792 positions.
+[0mcore.pack.interaction_graph.interaction_graph_factory: (2) [0mInstantiating DensePDInteractionGraph
+[0mprotocols.relax.FastRelax: (3) [0mCMD: repack  -2341.97  0.127817  0.127817  0.30745
+[0mprotocols.relax.FastRelax: (3) [0mCMD: scale:fa_rep  -2322.13  0.127817  0.127817  0.31955
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 4 with PID 0 on node Austins-MacBook-Pro exited on signal 15 (Terminated: 15).
+--------------------------------------------------------------------------

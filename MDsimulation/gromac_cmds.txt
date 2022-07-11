@@ -1,0 +1,114 @@
+Commands:
+gmx pdb2gmx -f ah1_h2.pdb -o ah1_h2_processed.gro -water spce
+- “15” “enter”
+- 15 - OPLS-AA/L all-atom force field (2001 amino acid dihedrals)
+- Created - “ah1_h2_processed.gro”, “poser.itp”, and “topol.top”
+
+gmx editconf -f ah1_h2_processed.gro -o ah1_h2_newbox.gro -c -d 1.0 -bt cubic
+- Centers the protein in the box
+
+gmx solvate -cp ah1_h2_newbox.gro -cs spc216.gro -o ah1_h2_solv.gro -p topol.top
+- Fill box with water
+- Added 2648 water molecules
+
+GATHER ION FILE
+wget http://www.mdtutorials.com/gmx/lysozyme/Files/ions.mdp
+
+gmx grompp -f ions.mdp -c ah1_h2_solv.gro -p topol.top -o ions.tpr
+- Generate “ions.tpr” file
+
+gmx genion -s ions.tpr -o ah1_h2_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
+- “13” “enter”
+- 13 - SOL
+- Only replaced one water with a NA
+- 2648 SOL
+- 1 NA (replaced SOL 259)
+
+GATHER Parameter file
+wget http://www.mdtutorials.com/gmx/lysozyme/Files/minim.mdp
+
+gmx grompp -f minim.mdp -c ah1_h2_solv_ions.gro -p topol.top -o em.tpr
+- Assemble binary input
+
+gmx mdrun -v -deffnm em
+- Carry out energy mim.
+- Potential Energy is negative = good
+    - And in the right magnitude 10^5-10^6
+- Maximum force in good range
+    - Don’t exceed 1000 kJ/mol*nm
+
+gmx energy -f em.edr -o potential.xvg
+- Type “10 0”
+
+EQUILBRATION
+
+GATHER .mbp file
+wget http://www.mdtutorials.com/gmx/lysozyme/Files/nvt.mdp
+
+Temp:
+gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+
+gmx mdrun -deffnm nvt
+- Uses CPU with tMPI
+
+More analysis:
+gmx energy -f nvt.edr -o temperature.xvg
+- Type: “16 0”
+
+Pressure:
+GATHER .mbp file
+wget http://www.mdtutorials.com/gmx/lysozyme/Files/npt.mdp
+
+gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+
+gmx mdrun -deffnm npt
+
+More analysis:
+gmx energy -f npt.edr -o pressure.xvg
+- Type: “18 0”
+
+gmx energy -f npt.edr -o density.xvg
+- Type: “24 0”
+
+PRODUCTION MD
+
+wget http://www.mdtutorials.com/gmx/lysozyme/Files/md.mdp
+
+gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+
+
+gmx mdrun -deffnm md_0_1 (-nb gpu - for gpu support) (-nt 96 (div by 48))
+
+POST PROCESSESING
+
+gmx trjconv -s md_0_1.tpr -f md_0_1.xtc -o md_0_1_noPBC.xtc -pbc mol -center
+	- Account for “broken” or “jumping”
+	- Type (“1” for protein then “0” for system)
+
+Calculate RMS
+
+gmx rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
+	- Type (“4” for backbone for both prompts)
+	- Output: rmsd.nvg
+	- Equilibrated reference
+
+gmx rms -s em.tpr -f md_0_1_noPBC.xtc -o rmsd_xtal.xvg -tu ns
+	- Same “4” then “4”
+	- output: rmsd_xtal.xvg
+	- Crystal reference
+
+Calculate Radius of gyration
+
+gmx gyrate -s md_0_1.tpr -f md_0_1_noPBC.xtc -o gyrate.xvg
+	- Type “1” for protein
+
+DSSP:
+
+# Point to dssp
+export DSSP=/usr/bin/dssp
+
+# Run DSSP
+gmx do_dssp -s md_0_1.tpr -f md_0_1_noPBC.xtc -o helix_ss.xpm -ver 3 -tu ns -dt 1
+
+# Convert to eps
+gmx xpm2ps -f helix_ss.xpm -o helix_ss.eps -by 20 -bx 20
