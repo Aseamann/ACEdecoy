@@ -59,6 +59,7 @@ def read_scount(file_in, multi=False):
 
 def plot_structure(data, structure, multi=False):
     fig, ax = plt.subplots()
+    sns.set(font_scale=1.5)
     if multi:
         data_dict = {}
         for file_i in data:
@@ -67,15 +68,16 @@ def plot_structure(data, structure, multi=False):
                 y_data = y_data[::100]
             data_dict[file_i] = y_data
         data_df = pd.DataFrame(data_dict)
-        sns.lineplot(data=data_df)
+        sns.lineplot(data=data_df, lw=3)
         # plt.legend(labels=[list(data.keys())])
     else:
         y_data = data[structure]
         y_data = y_data[::100]
-        ax = sns.lineplot(x=range(len(y_data)), y=y_data)
+        ax = sns.lineplot(x=range(len(y_data)), y=y_data, lw=3)
     plt.ylim(0, 1)
-    plt.ylabel("fraction of residues in alpha-helix")
-    plt.xlabel("Time (ns)")
+    plt.ylabel("fraction of residues in alpha-helix", fontsize=16)
+    plt.xlabel("Time (ns)", fontsize=16)
+    ax.set_box_aspect(1)
     plt.show()
 
 

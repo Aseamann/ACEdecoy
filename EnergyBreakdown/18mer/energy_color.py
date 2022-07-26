@@ -42,7 +42,7 @@ with open(energy_table, "r") as file:
     chimera.runCommand("color black,l #0.1")
     chimera.runCommand("color black,l #0.2")
     # Color chain 1
-    chimera.runCommand("color cyan,r,s #0.1")
+    chimera.runCommand("color purple,r,s #0.1")
     chimera.runCommand("color orange,r,s #0.2")
     for each in sorted(values, key=lambda x: x[1], reverse=True):
         # print(each[0])

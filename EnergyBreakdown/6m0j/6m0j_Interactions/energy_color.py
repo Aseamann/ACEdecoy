@@ -46,7 +46,7 @@ with open(energy_table, "r") as file:
     chimera.runCommand("color black,l #0.1")
     chimera.runCommand("color black,l #0.2")
     # Color chain 1
-    chimera.runCommand("color cyan,r,s #0.1")
+    chimera.runCommand("color medium blue,r,s #0.1")
     chimera.runCommand("color orange,r,s #0.2")
     for each in sorted(values, key=lambda x: x[1], reverse=True):
 
@@ -54,7 +54,7 @@ with open(energy_table, "r") as file:
             count += 1
             if int(get_mag(each[1], min_i, 0)) != 0:
                 # Colors ACE2
-                chimera.runCommand("color " + color_by_magnitude(get_mag(each[1], min_i, 0)) + ",r,b,s #0.1:"
+                chimera.runCommand("color " + color_by_magnitude(get_mag(each[1], min_i, 0)) + ",b,s #0.1:"
                                    + str(each[0].split(" ")[1]))
                 # Shows the side chain of ACE2
                 if count >= half_val:
@@ -62,7 +62,7 @@ with open(energy_table, "r") as file:
                     chimera.runCommand("rlabel #0.1:" + str(each[0].split(" ")[1]))
                 # Colors Spike
                 chimera.runCommand(
-                        "color " + color_by_magnitude(get_mag(each[1], min_i, 0)) + ",r,b,s #0.2:"
+                        "color " + color_by_magnitude(get_mag(each[1], min_i, 0)) + ",b,s #0.2:"
                         + str(each[2].split(" ")[1]))
                 # Shows the side chain of spike
                 if count >= half_val:
