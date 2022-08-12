@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 ######################################################################
-# PostCoupler.py -- Adapted from a future publication                #
+# PostCoupler.py -- A component of TRain                             #
 # Copyright: Austin Seamann & Dario Ghersi                           #
 # Version: 0.1                                                       #
 # Last Updated: January 12th, 2022                                   #
@@ -63,7 +63,7 @@ class MatchNumber:
             aligns[chain] = pairwise2.align.globalms(target_seqs[chain], ref_seqs[chain], 2, -1, -2, -.5,
                                                      penalize_end_gaps=(False, False), one_alignment_only=True)
             # If there is a gap at the start of the target seq, removes those positions from ref_aa until it matches
-            start_of_chain = self.find_gap(aligns[chain][0][0])
+            start_of_chain = self.find_gap(aligns[chain][0])
             while start_of_chain != 0:
                 ref_aa[chain].pop(ref_aa[chain].key()[0])
                 start_of_chain -= 1

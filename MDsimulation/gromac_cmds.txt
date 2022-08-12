@@ -1,3 +1,9 @@
+Initialize:
+source /usr/local/gromacs/bin/GMXRC
+
+DSSP:
+export DSSP=/usr/bin/dssp
+
 Commands:
 gmx pdb2gmx -f ah1_h2.pdb -o ah1_h2_processed.gro -water spce
 - “15” “enter”
@@ -34,11 +40,14 @@ gmx mdrun -v -deffnm em
 - Carry out energy mim.
 - Potential Energy is negative = good
     - And in the right magnitude 10^5-10^6
+    - -1.3656903e+05
 - Maximum force in good range
     - Don’t exceed 1000 kJ/mol*nm
+    - 9.6663855e+02
 
 gmx energy -f em.edr -o potential.xvg
 - Type “10 0”
+- Potential - avg: -128106, err.est: 4300, reds: 11583, tot-drift: -28492.3 (kJ/moL)
 
 EQUILBRATION
 
@@ -50,10 +59,13 @@ gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
 
 gmx mdrun -deffnm nvt
 - Uses CPU with tMPI
+- About 1 min
 
 More analysis:
 gmx energy -f nvt.edr -o temperature.xvg
 - Type: “16 0”
+- AVG: 299.712
+- RMSD: 3.81441
 
 Pressure:
 GATHER .mbp file
@@ -66,9 +78,11 @@ gmx mdrun -deffnm npt
 More analysis:
 gmx energy -f npt.edr -o pressure.xvg
 - Type: “18 0”
+- AVG: 0.632692, RMSD: 283.313
 
 gmx energy -f npt.edr -o density.xvg
 - Type: “24 0”
+- Avg: 1010.71, RMSD: 4.87523
 
 PRODUCTION MD
 
@@ -76,12 +90,21 @@ wget http://www.mdtutorials.com/gmx/lysozyme/Files/md.mdp
 
 gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
 
+Printed:
+- Estimate for the relative computational load of the PME mesh part: 0.28
 
 gmx mdrun -deffnm md_0_1 (-nb gpu - for gpu support) (-nt 96 (div by 48))
+	- 12:58pm - 1:06pm (1 ns)
+	- 5:03pm - 
+	- On gpu 10 hour run took 15 minutes
+
+	- Started Laa_MGG_Spike complex at 6:27pm 6/19/22
+	
+	- To get progress updates on run: tail -f md_0_1.log
 
 POST PROCESSESING
 
-gmx trjconv -s md_0_1.tpr -f md_0_1.xtc -o md_0_1_noPBC.xtc -pbc mol -center
+gmx trjconv -s md_0_1.tpr -f md_0_1.xtc -o md_0_1_noPBC.xtc -pbc nojump -center
 	- Account for “broken” or “jumping”
 	- Type (“1” for protein then “0” for system)
 
@@ -92,6 +115,7 @@ gmx rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
 	- Output: rmsd.nvg
 	- Equilibrated reference
 
+# Make sure to be using it out of copmplex
 gmx rms -s em.tpr -f md_0_1_noPBC.xtc -o rmsd_xtal.xvg -tu ns
 	- Same “4” then “4”
 	- output: rmsd_xtal.xvg
@@ -107,8 +131,43 @@ DSSP:
 # Point to dssp
 export DSSP=/usr/bin/dssp
 
-# Run DSSP
-gmx do_dssp -s md_0_1.tpr -f md_0_1_noPBC.xtc -o helix_ss.xpm -ver 3 -tu ns -dt 1
+
+# DSSP options 
+gmx do_dssp -h
+gmx do_dssp -f md_0_1.xtc -s md_0_1.tpr -sc scount.xvg -o ss.xpm -dt 10 -sss H
+Enter: 5
+----Other: -tu ns, -dt 1
 
 # Convert to eps
 gmx xpm2ps -f helix_ss.xpm -o helix_ss.eps -by 20 -bx 20
+
+xmgrace -nxy scount.xvg
+
+
+When Dealing with complex and need to split apart chains
+gmx make_ndx -f md_0_1.gro -o index.ndx
+	or gmx make_ndx -f ah1_h2_processed.gro -o index.ndx (BAD ONE)
+Type: splitch 1
+Select what chain
+Type: q
+
+gmx trjconv -f md_0_1.xtc -s md_0_1.tpr -n index.ndx -o chain2_traj.xtc
+Enter: 19 or 18 (or whatever chain you're attempting)
+
+gmx convert-tpr -s md_0_1.tpr -n index.ndx -o md_chain2.tpr
+Enter: 19 (or whatever chain you're attempting)
+
+gmx trjconv -s md_chain2.tpr -f chain2_traj.xtc -o chain2_traj_noPBC.xtc -pbc nojump -center
+Enter: 1 then 0
+
+gmx do_dssp -f chain2_traj_noPBC.xtc -s md_chain2.tpr -sc scount_chain2.xvg -o ss_chain2.xpm -dt 10 -sss H
+Enter: 5
+
+gmx rms -s md_chain2.tpr -f chain2_traj_noPBC.xtc -o rmsd_xtal_chain2.xvg -tu ns
+	- "4" then "4"
+
+
+
+TOO PULL PDBS
+gmx trjconv -s md_chain2.tpr -f chain2_traj_noPBC.xtc -dt 100 -o trj.pdb
+Type: 1
