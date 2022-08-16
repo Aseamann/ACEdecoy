@@ -1,87 +1,176 @@
 \begin{table*}[t]
 \centering
 \scriptsize
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{ACE2} &\textbf{Interaction energy} &\textbf{Spike}\\
+\textbf{Human ACE2} &\textbf{Interaction energy} &\textbf{SARS-CoV-2 Spike}\\
 \hline
+\line
+
+\textbf {Alfa helix 1} & & & \\ 
+\hline 
+\textcolor{red}{SER 19} & -2.437 & ALA 475 & •\\
+\hline
+\textcolor{orange}{SER 19} & -0.029 & GLY 476 & •\\
+\hline
+\textcolor{orange}{SER 19} & -0.134 & SER 477 & ASP 463\\
+\hline
+\textcolor{orange}{THR 20} & -0.023 & GLY 476 & •\\
+\hline
+\textcolor{orange}{GLU 23} & -0.195 & ALA 475 & •\\
+\hline
+\textcolor{red}{GLN 24} & -1.216 & ALA 475 & •\\
+\hline
+\textcolor{orange}{GLN 24} & -0.85 & GLY 476 & •\\
+\hline
+\textcolor{orange}{GLN 24} & -0.237 & PHE 486 & •\\
+\hline
+\textcolor{red}{GLN 24} & -1.428 & ASN 487 & ASN 473\\
+\hline
+\textcolor{orange}{GLN 24} & -0.166 & TYR 489 & TYR 475\\
+\hline
+\textcolor{orange}{ALA 25} & -0.002 & ALA 475 & PRO 462\\
+\hline
+\textcolor{orange}{LYS 26} & -0.075 & PHE 456 & LEU 443\\
+\hline
+\textcolor{orange}{THR 27} & -0.02 & LEU 455 & TYR 442\\
+\hline
+\textcolor{red}{THR 27} & -2.184 & PHE 456 & & LEU 443\\
+\hline
+\textcolor{red}{THR 27} & -1.103 & TYR 473 & PHE 460\\
+\hline
+\textcolor{orange}{THR 27} & -0.845 & ALA 475 & PRO 462\\
+\hline
+\textcolor{orange}{THR 27} & -0.041 & ASN 487 & ASN 473\\
+\hline
+\textcolor{red}{THR 27} & -1.378 & TYR 489 & TYR 475\\
+\hline
+\textcolor{orange}{PHE 28} & -0.068 & PHE 456 & LEU 443\\
+\hline
+\textcolor{orange}{PHE 28} & -0.034 & ASN 487 & ASN 473\\
+\hline
+\textcolor{orange}{PHE 28} & -0.724 & TYR 489 & TYR 475\\
+\hline
+\textcolor{orange}{LEU 29} & -0.001 & PHE 456 & LEU 443\\
+\hline
+\textcolor{red}{ASP 30} & -4.645 & LYS 417 & ILE 405\\
+\hline
+\textcolor{orange}{ASP 30} & -0.728 & LEU 455 & TYR 442\\
+\hline
+\textcolor{orange}{ASP 30} & -0.779 & PHE 456 & LEU 443\\
+\hline
+\textcolor{orange}{ASP 30} & -0.095 & GLN 493 & ASN 479\\
+\hline
+\textcolor{red}{LYS 31} & -1.315 & LEU 455 & TYR 442\\
+\hline
+\textcolor{orange}{LYS 31} & -0.762 & PHE 456 & LEU 443\\
+\hline
+\textcolor{orange}{LYS 31} & -0.333 & GLU 484 & PRO 469\\
+\hline
+\textcolor{orange}{LYS 31} & -0.001 & CYS 488 & CYS 474\\
+\hline
+\textcolor{orange}{LYS 31} & -0.803 & TYR 489 & TYR 475\\
+\hline
+\textcolor{orange}{LYS 31} & -0.086 & PHE 490 & TRP 476\\
+\hline
+\textcolor{orange}{LYS 31} & -0.009 & LEU 492 & LEU 478\\
+\hline
+\textcolor{orange}{PHE 32} & -0.005 & LEU 455 & TYR 442\\
+\hline
+\textcolor{orange}{PHE 32} & -0.066 & GLN 493 & ASN 479\\
+\hline
+\textcolor{orange}{HIS 34} & -0.111 & ARG 403 & LYS 390\\
+\hline
+\textcolor{orange}{HIS 34} & -0.223 & LYS 417 & ILE 405\\
+\hline
+\textcolor{orange}{HIS 34} & -0.478 & TYR 453 & TYR 440\\
+\hline
+\textcolor{red}{HIS 34} & -1.537 & LEU 455 & TYR 442\\
+\hline
+\textcolor{orange}{HIS 34} & -0.305 & GLN 493 & ASN 479\\
+\hline
+\textcolor{orange}{GLU 35} & -0.005 & GLN 493 & ASN 479\\
+\hline
+\textcolor{orange}{GLU 37} & -0.087 & TYR 505 & TYR 491\\
+\hline
+\textcolor{orange}{ASP 38} & -0.076 & GLY 447 & GLY 434\\
+\hline
+\textcolor{red}{ASP 38} & -3.387 & TYR 449 & TYR 436\\
+\hline
+\textcolor{orange}{ASP 38} & -0.025 & SER 494 & ASP 480\\
+\hline
+\textcolor{orange}{ASP 38} & -0.099 & TYR 495 & TYR 481\\
+\hline
+\textcolor{orange}{ASP 38} & -0.279 & GLY 496 & GLY 482\\
+\hline
+\textcolor{orange}{ASP 38} & -0.298 & GLN 498 & TYR 484\\
+\hline
+\textcolor{orange}{TYR 41} & -0.856 & GLN 498 & TYR 484\\
+\hline
+\textcolor{red}{TYR 41} & -1.886 & THR 500 & THR 486\\
+\hline
+\textcolor{red}{GLN 42} & -1.611 & GLY 446 & THR 433\\
+\hline
+\textcolor{orange}{GLN 42} & -0.109 & GLY 447 & GLY 434\\
+\hline
+\textcolor{orange}{GLN 42} & -0.03 & TYR 449 & TYR 436\\
+\hline
+\textcolor{orange}{LEU 45} & -0.22 & GLN 498 & TYR 484\\
+\hline
+\textcolor{orange}{LEU 45} & -0.226 & THR 500 & THR 486\\
 \hline
 
-\textcolor{orange}{SER 19} & -0.134 & SER 477\\
+\textbf{Alfa helix 2} & & & \\ 
+\hline 
+\textcolor{orange}{LEU 79} & -0.058 & GLY 485 & •\\
 \hline
-\textcolor{orange}{THR 20} & -0.023 & GLY 476\\
+\textcolor{red}{LEU 79} & -1.211 & PHE 486 & ALA 471\\
 \hline
-\textcolor{orange}{ILE 21} & 0.012 & ASN 487\\
+\textcolor{orange}{LEU 79} & -0.247 & TYR 489 & TYR 475\\
 \hline
-\textcolor{orange}{GLU 23} & -0.195 & ALA 475\\
+\textcolor{orange}{ALA 80} & -0.001 & PHE 486 & ALA 471\\
 \hline
-\textcolor{orange}{GLN 24} & -0.166 & TYR 489\\
+\textcolor{red}{MET 82} & -2.427 & PHE 486 & ALA 471\\
 \hline
-\textcolor{orange}{ALA 25} & 0.001 & TYR 489\\
+\textcolor{red}{TYR 83} & -1.622 & PHE 486 & ALA 471\\
 \hline
-\textcolor{orange}{LYS 26} & -0.075 & PHE 456\\
+\textcolor{red}{TYR 83} & -1.619 & ASN 487 & ASN 473\\
 \hline
-\textcolor{red}{THR 27} & -1.378 & TYR 489\\
+
+\textbf {Small downstream alfa helix} & & & \\ 
+\hline 
+\textcolor{orange}{ASN 330} & -0.013 & THR 500 & THR 486\\
 \hline
-\textcolor{orange}{PHE 28} & -0.724 & TYR 489\\
+
+\textbf{Beta hairpin} & & \\
+\hline 
+\textcolor{orange}{GLY 352} & -0.02 & ASN 501 & THR 487\\
 \hline
-\textcolor{orange}{LEU 29} & -0.001 & PHE 456\\
+\textcolor{orange}{GLY 352} & -0.148 & GLY 502 & GLY 488\\
 \hline
-\textcolor{orange}{ASP 30} & -0.095 & GLN 493\\
+\textcolor{red}{LYS 353} & -1.874 & GLY 496 & GLY 482\\
 \hline
-\textcolor{orange}{LYS 31} & 0.134 & GLN 493\\
+\textcolor{red}{LYS 353} & -1.398 & ASN 501 & THR 487\\
 \hline
-\textcolor{orange}{PHE 32} & -0.066 & GLN 493\\
+\textcolor{red}{LYS 353} & -2.008 & GLY 502 & GLY 488\\
 \hline
-\textcolor{orange}{HIS 34} & -0.305 & GLN 493\\
+\textcolor{red}{LYS 353} & -3.648 & TYR 505 & TYR 491\\
 \hline
-\textcolor{orange}{GLU 35} & -0.005 & GLN 493\\
+\textcolor{orange}{GLY 354} & -0.002 & ASN 501 & THR 487\\
 \hline
-\textcolor{orange}{GLU 37} & -0.087 & TYR 505\\
+\textcolor{orange}{GLY 354} & -0.456 & GLY 502 & GLY 488\\
 \hline
-\textcolor{orange}{ASP 38} & -0.298 & GLN 498\\
+\textcolor{orange}{GLY 354} & -0.023 & VAL 503 & ILE 489\\
 \hline
-\textcolor{orange}{LEU 39} & 0.007 & TYR 449\\
+\textcolor{orange}{GLY 354} & -0.39 & TYR 505 & TRY 491\\
 \hline
-\textcolor{orange}{TYR 41} & 0.019 & GLY 502\\
+\textcolor{orange}{ASP 355} & -0.033 & GLY 502 & GLY 488\\
 \hline
-\textcolor{orange}{GLN 42} & 0.047 & GLN 498\\
+\textcolor{orange}{ASP 355} & -0.002 & TYR 505 & TYR 491\\
 \hline
-\textcolor{orange}{LEU 45} & -0.226 & THR 500\\
+\textcolor{orange}{ARG 357} & -0.147 & THR 500 & THR 486\\
 \hline
-\textcolor{orange}{GLN 76} & 0.012 & TYR 489\\
-\hline
-\textcolor{orange}{LEU 79} & -0.247 & TYR 489\\
-\hline
-\textcolor{orange}{ALA 80} & -0.001 & PHE 486\\
-\hline
-\textcolor{red}{MET 82} & -2.427 & PHE 486\\
-\hline
-\textcolor{orange}{TYR 83} & 0.169 & TYR 489\\
-\hline
-\textcolor{orange}{THR 324} & 0.002 & VAL 503\\
-\hline
-\textcolor{orange}{GLN 325} & 0.003 & VAL 503\\
-\hline
-\textcolor{orange}{ASN 330} & -0.013 & THR 500\\
-\hline
-\textcolor{orange}{GLY 352} & -0.148 & GLY 502\\
-\hline
-\textcolor{red}{LYS 353} & -3.648 & TYR 505\\
-\hline
-\textcolor{orange}{GLY 354} & -0.39 & TYR 505\\
-\hline
-\textcolor{orange}{ASP 355} & -0.002 & TYR 505\\
-\hline
-\textcolor{orange}{PHE 356} & 0.002 & TYR 505\\
-\hline
-\textcolor{orange}{ARG 357} & -0.147 & THR 500\\
-\hline
-\textcolor{orange}{ALA 386} & -0.044 & TYR 505\\
-\hline
-\textcolor{orange}{ALA 387} & 0.01 & TYR 505\\
-\hline
-\textcolor{orange}{ARG 393} & 0.089 & TYR 505\\
+\textcolor{orange}{ALA 386} & -0.044 & TYR 505 & TYR 491\\
 \hline
 \end{tabular}
 \label{tab1}

@@ -87,17 +87,22 @@ def read_sheet(sheet_in, chain_in):
     for key, value in df.iterrows():
         values = value.array
         if values[7] != "onebody":
-            if values[3][-1] != values[6][-1]:  # Ensure not capturing internal interactions NEW
-                interactions[values[3]] = [[values[3], values[6], values[27]]]
-                if values[6] in interactions.keys():
-                    interactions[values[6]].append([values[3], values[6], values[27]])
+            if values[27] < 0:
+                if values[3] in interactions.keys():
+                    interactions[values[3]].append([values[3], values[6], values[27]])
+                    if values[6] in interactions.keys():
+                        interactions[values[6]].append([values[3], values[6], values[27]])
+                    else:
+                        interactions[values[6]] = [[values[3], values[6], values[27]]]
                 else:
-                    interactions[values[6]] = [[values[3], values[6], values[27]]]
+                    interactions[values[3]] = [[values[3], values[6], values[27]]]
+                    if values[6] in interactions.keys():
+                        interactions[values[6]].append([values[3], values[6], values[27]])
+                    else:
+                        interactions[values[6]] = [[values[3], values[6], values[27]]]
         elif values[7] == "onebody":
             if values[3][-1] in chains.keys():
                 chains[values[3][-1]].append([values[3], values[4]])
-                if values[3][-1] == chain_in:
-                    interactions[values[3]] = []
             else:
                 first_aa[values[3][-1]] = int(values[3][:-1])
                 chains[values[3][-1]] = [[values[3], values[4]]]
@@ -258,7 +263,6 @@ def heatmap(info, font_size, distance_in=0.0, distance=False, alpha_carbon=True)
                     df = df.drop(i, axis=1)
             flag = True
         flag = False
-        print(df)
         for i, row in df.iterrows():
             if flag:
                 row_list = list(row)
@@ -268,7 +272,6 @@ def heatmap(info, font_size, distance_in=0.0, distance=False, alpha_carbon=True)
                 else:
                     df = df.drop(i)
             flag = True
-    print(df)
     # Read in x and y axis labels
     y_axis_labels = list(df.iloc[:,0])
     x_axis_labels = list(df.iloc[0:, :])[1:]
