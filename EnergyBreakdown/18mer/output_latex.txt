@@ -1,0 +1,109 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{ACE2} &\textbf{Interaction energy} &\textbf{Spike}\\
+\hline
+\hline
+
+\textcolor{orange}{MET 82} & -0.046 & PHE 486\\
+\hline
+\textcolor{orange}{GLY 1} & 0.406 & GLY 485\\
+\hline
+\textcolor{red}{GLY 1} & -1.804 & PHE 486\\
+\hline
+\textcolor{red}{GLY 1} & -2.65 & ASN 487\\
+\hline
+\textcolor{orange}{GLY 1} & -0.115 & CYS 488\\
+\hline
+\textcolor{orange}{GLY 2} & -0.368 & PHE 486\\
+\hline
+\textcolor{orange}{GLY 2} & -0.275 & ASN 487\\
+\hline
+\textcolor{orange}{GLU 22} & 0.022 & ASN 487\\
+\hline
+\textcolor{orange}{GLU 23} & -0.244 & PHE 456\\
+\hline
+\textcolor{orange}{GLU 23} & -0.075 & ALA 475\\
+\hline
+\textcolor{orange}{GLU 23} & 0.029 & ASN 487\\
+\hline
+\textcolor{orange}{GLN 24} & -0.001 & LEU 455\\
+\hline
+\textcolor{orange}{GLN 24} & -0.681 & PHE 456\\
+\hline
+\textcolor{orange}{GLN 24} & -0.001 & TYR 473\\
+\hline
+\textcolor{orange}{GLN 24} & -0.765 & ALA 475\\
+\hline
+\textcolor{orange}{GLN 24} & 0.002 & GLY 476\\
+\hline
+\textcolor{orange}{GLN 24} & -0.007 & GLY 485\\
+\hline
+\textcolor{orange}{GLN 24} & -0.004 & PHE 486\\
+\hline
+\textcolor{red}{GLN 24} & -2.619 & ASN 487\\
+\hline
+\textcolor{orange}{GLN 24} & -0.143 & CYS 488\\
+\hline
+\textcolor{red}{GLN 24} & -1.135 & TYR 489\\
+\hline
+\textcolor{orange}{ALA 25} & -0.005 & TYR 489\\
+\hline
+\textcolor{orange}{THR 27} & 0.071 & TYR 453\\
+\hline
+\textcolor{orange}{THR 27} & -0.912 & LEU 455\\
+\hline
+\textcolor{orange}{THR 27} & -0.649 & PHE 456\\
+\hline
+\textcolor{orange}{THR 27} & -0.651 & TYR 489\\
+\hline
+\textcolor{red}{THR 27} & -1.294 & GLN 493\\
+\hline
+\textcolor{orange}{PHE 28} & -0.001 & ARG 403\\
+\hline
+\textcolor{orange}{PHE 28} & -0.157 & TYR 489\\
+\hline
+\textcolor{orange}{PHE 28} & 0.263 & GLN 493\\
+\hline
+\textcolor{orange}{LEU 29} & -0.059 & ARG 403\\
+\hline
+\textcolor{orange}{LEU 29} & -0.085 & GLN 493\\
+\hline
+\textcolor{orange}{ASP 30} & -0.009 & LEU 455\\
+\hline
+\textcolor{orange}{LYS 31} & 1.695 & ARG 403\\
+\hline
+\textcolor{red}{LYS 31} & -2.017 & GLU 406\\
+\hline
+\textcolor{orange}{LYS 31} & 0.054 & GLN 409\\
+\hline
+\textcolor{orange}{LYS 31} & -0.202 & LYS 417\\
+\hline
+\textcolor{orange}{LYS 31} & 0.045 & ILE 418\\
+\hline
+\textcolor{orange}{LYS 31} & -0.367 & TYR 453\\
+\hline
+\textcolor{red}{LYS 31} & -1.775 & LEU 455\\
+\hline
+\textcolor{orange}{LYS 31} & -0.113 & GLN 493\\
+\hline
+\textcolor{orange}{LYS 31} & 0.497 & TYR 495\\
+\hline
+\textcolor{red}{PHE 32} & -2.858 & LYS 417\\
+\hline
+\textcolor{orange}{PHE 32} & 0.0 & TYR 421\\
+\hline
+\textcolor{orange}{PHE 32} & -0.746 & LEU 455\\
+\hline
+\textcolor{red}{PHE 32} & -2.729 & PHE 456\\
+\hline
+\textcolor{orange}{PHE 32} & -0.217 & TYR 473\\
+\hline
+\textcolor{orange}{PHE 32} & -0.148 & ALA 475\\
+\hline
+\end{tabular}
+\label{tab1}
+\caption{\textbf{TEXT HERE} TEXT HERE}
+\end{table*}

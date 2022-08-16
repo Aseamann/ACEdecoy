@@ -1,0 +1,89 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{ACE2} &\textbf{Interaction energy} &\textbf{Spike}\\
+\hline
+\hline
+
+\textcolor{orange}{SER 19} & -0.134 & SER 477\\
+\hline
+\textcolor{orange}{THR 20} & -0.023 & GLY 476\\
+\hline
+\textcolor{orange}{ILE 21} & 0.012 & ASN 487\\
+\hline
+\textcolor{orange}{GLU 23} & -0.195 & ALA 475\\
+\hline
+\textcolor{orange}{GLN 24} & -0.166 & TYR 489\\
+\hline
+\textcolor{orange}{ALA 25} & 0.001 & TYR 489\\
+\hline
+\textcolor{orange}{LYS 26} & -0.075 & PHE 456\\
+\hline
+\textcolor{red}{THR 27} & -1.378 & TYR 489\\
+\hline
+\textcolor{orange}{PHE 28} & -0.724 & TYR 489\\
+\hline
+\textcolor{orange}{LEU 29} & -0.001 & PHE 456\\
+\hline
+\textcolor{orange}{ASP 30} & -0.095 & GLN 493\\
+\hline
+\textcolor{orange}{LYS 31} & 0.134 & GLN 493\\
+\hline
+\textcolor{orange}{PHE 32} & -0.066 & GLN 493\\
+\hline
+\textcolor{orange}{HIS 34} & -0.305 & GLN 493\\
+\hline
+\textcolor{orange}{GLU 35} & -0.005 & GLN 493\\
+\hline
+\textcolor{orange}{GLU 37} & -0.087 & TYR 505\\
+\hline
+\textcolor{orange}{ASP 38} & -0.298 & GLN 498\\
+\hline
+\textcolor{orange}{LEU 39} & 0.007 & TYR 449\\
+\hline
+\textcolor{orange}{TYR 41} & 0.019 & GLY 502\\
+\hline
+\textcolor{orange}{GLN 42} & 0.047 & GLN 498\\
+\hline
+\textcolor{orange}{LEU 45} & -0.226 & THR 500\\
+\hline
+\textcolor{orange}{GLN 76} & 0.012 & TYR 489\\
+\hline
+\textcolor{orange}{LEU 79} & -0.247 & TYR 489\\
+\hline
+\textcolor{orange}{ALA 80} & -0.001 & PHE 486\\
+\hline
+\textcolor{red}{MET 82} & -2.427 & PHE 486\\
+\hline
+\textcolor{orange}{TYR 83} & 0.169 & TYR 489\\
+\hline
+\textcolor{orange}{THR 324} & 0.002 & VAL 503\\
+\hline
+\textcolor{orange}{GLN 325} & 0.003 & VAL 503\\
+\hline
+\textcolor{orange}{ASN 330} & -0.013 & THR 500\\
+\hline
+\textcolor{orange}{GLY 352} & -0.148 & GLY 502\\
+\hline
+\textcolor{red}{LYS 353} & -3.648 & TYR 505\\
+\hline
+\textcolor{orange}{GLY 354} & -0.39 & TYR 505\\
+\hline
+\textcolor{orange}{ASP 355} & -0.002 & TYR 505\\
+\hline
+\textcolor{orange}{PHE 356} & 0.002 & TYR 505\\
+\hline
+\textcolor{orange}{ARG 357} & -0.147 & THR 500\\
+\hline
+\textcolor{orange}{ALA 386} & -0.044 & TYR 505\\
+\hline
+\textcolor{orange}{ALA 387} & 0.01 & TYR 505\\
+\hline
+\textcolor{orange}{ARG 393} & 0.089 & TYR 505\\
+\hline
+\end{tabular}
+\label{tab1}
+\caption{\textbf{TEXT HERE} TEXT HERE}
+\end{table*}
