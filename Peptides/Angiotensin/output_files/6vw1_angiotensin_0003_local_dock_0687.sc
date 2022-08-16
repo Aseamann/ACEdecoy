@@ -1,0 +1,3 @@
+SEQUENCE: 
+SCORE: total_score       score dslf_fa13    fa_atr    fa_dun   fa_elec fa_intra_rep fa_intra_sol_xover4              fa_rep              fa_sol hbond_bb_sc hbond_lr_bb    hbond_sc hbond_sr_bb linear_chainbreak lk_ball_wtd       omega overlap_chainbreak            p_aa_pp pro_close rama_prepro         ref        time yhh_planarity description 
+SCORE:   -1044.670   -1044.670    -2.659 -3903.610   812.136 -1097.342        7.071             130.338            1092.171            2420.566    -117.515     -35.079     -76.754    -334.607             0.000     -98.183      93.739              0.000            -87.192     6.599      21.080     124.089       1.000         0.480 6vw1_angiotensin_0003_local_dock_0687_0001
