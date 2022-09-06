@@ -1,53 +1,48 @@
-Initialize:
+Initialize: (Your's may be different)
 source /usr/local/gromacs/bin/GMXRC
 
-DSSP:
+DSSP: (Your's may be different)
 export DSSP=/usr/bin/dssp
 
+Replace "your_file" in the commands below
+
 Commands:
-gmx pdb2gmx -f ah1_h2.pdb -o ah1_h2_processed.gro -water spce
+gmx pdb2gmx -f your_file.pdb -o your_file_processed.gro -water spce
 - “15” “enter”
 - 15 - OPLS-AA/L all-atom force field (2001 amino acid dihedrals)
-- Created - “ah1_h2_processed.gro”, “poser.itp”, and “topol.top”
+- Created - “your_file_processed.gro”, “poser.itp”, and “topol.top”
 
-gmx editconf -f ah1_h2_processed.gro -o ah1_h2_newbox.gro -c -d 1.0 -bt cubic
+gmx editconf -f your_file_processed.gro -o your_file_newbox.gro -c -d 1.0 -bt cubic
 - Centers the protein in the box
 
-gmx solvate -cp ah1_h2_newbox.gro -cs spc216.gro -o ah1_h2_solv.gro -p topol.top
+gmx solvate -cp your_file_newbox.gro -cs spc216.gro -o your_file_solv.gro -p topol.top
 - Fill box with water
-- Added 2648 water molecules
 
 GATHER ION FILE
 wget http://www.mdtutorials.com/gmx/lysozyme/Files/ions.mdp
 
-gmx grompp -f ions.mdp -c ah1_h2_solv.gro -p topol.top -o ions.tpr
+gmx grompp -f ions.mdp -c your_file_solv.gro -p topol.top -o ions.tpr
 - Generate “ions.tpr” file
 
-gmx genion -s ions.tpr -o ah1_h2_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
+gmx genion -s ions.tpr -o your_file_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
 - “13” “enter”
 - 13 - SOL
-- Only replaced one water with a NA
-- 2648 SOL
-- 1 NA (replaced SOL 259)
 
 GATHER Parameter file
 wget http://www.mdtutorials.com/gmx/lysozyme/Files/minim.mdp
 
-gmx grompp -f minim.mdp -c ah1_h2_solv_ions.gro -p topol.top -o em.tpr
+gmx grompp -f minim.mdp -c your_file_solv_ions.gro -p topol.top -o em.tpr
 - Assemble binary input
 
 gmx mdrun -v -deffnm em
 - Carry out energy mim.
 - Potential Energy is negative = good
     - And in the right magnitude 10^5-10^6
-    - -1.3656903e+05
 - Maximum force in good range
     - Don’t exceed 1000 kJ/mol*nm
-    - 9.6663855e+02
 
 gmx energy -f em.edr -o potential.xvg
 - Type “10 0”
-- Potential - avg: -128106, err.est: 4300, reds: 11583, tot-drift: -28492.3 (kJ/moL)
 
 EQUILBRATION
 
@@ -59,13 +54,10 @@ gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
 
 gmx mdrun -deffnm nvt
 - Uses CPU with tMPI
-- About 1 min
 
 More analysis:
 gmx energy -f nvt.edr -o temperature.xvg
 - Type: “16 0”
-- AVG: 299.712
-- RMSD: 3.81441
 
 Pressure:
 GATHER .mbp file
@@ -78,27 +70,22 @@ gmx mdrun -deffnm npt
 More analysis:
 gmx energy -f npt.edr -o pressure.xvg
 - Type: “18 0”
-- AVG: 0.632692, RMSD: 283.313
 
 gmx energy -f npt.edr -o density.xvg
 - Type: “24 0”
-- Avg: 1010.71, RMSD: 4.87523
 
 PRODUCTION MD
 
 wget http://www.mdtutorials.com/gmx/lysozyme/Files/md.mdp
+	- Confirm the details in this file with your preferred text editor. Can adjust this file to run MDs longer than 10ns
+
+vim md.mdp
+- To exit, type ":q!" Or ":x"
 
 gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
 
-Printed:
-- Estimate for the relative computational load of the PME mesh part: 0.28
 
-gmx mdrun -deffnm md_0_1 (-nb gpu - for gpu support) (-nt 96 (div by 48))
-	- 12:58pm - 1:06pm (1 ns)
-	- 5:03pm - 
-	- On gpu 10 hour run took 15 minutes
-
-	- Started Laa_MGG_Spike complex at 6:27pm 6/19/22
+gmx mdrun -deffnm md_0_1 (-nb gpu - for gpu support)
 	
 	- To get progress updates on run: tail -f md_0_1.log
 
@@ -146,7 +133,7 @@ xmgrace -nxy scount.xvg
 
 When Dealing with complex and need to split apart chains
 gmx make_ndx -f md_0_1.gro -o index.ndx
-	or gmx make_ndx -f ah1_h2_processed.gro -o index.ndx (BAD ONE)
+	or gmx make_ndx -f your_file_processed.gro -o index.ndx (BAD ONE)
 Type: splitch 1
 Select what chain
 Type: q
